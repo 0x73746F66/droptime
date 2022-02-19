@@ -8,8 +8,8 @@ window.onload = function() {
         width = h > w ? h : w,
         height = h > w ? w : h,
         game = new Phaser.Game(
-          window.innerWidth,
-          window.innerHeight,
+          width,
+          height,
           Phaser.CANVAS,
           'game'
         );

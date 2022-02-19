@@ -7,8 +7,8 @@ var version    = '0.0.5';
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use('/droptime', express.static(__dirname + '/client'));
-app.use('/droptime/offline.appcache', function(req, res) {
+app.use('/', express.static(__dirname + '/client'));
+app.use('/offline.appcache', function(req, res) {
   res.setHeader("Content-Type", "text/cache-manifest");
   res.send('CACHE MANIFEST\n\
     # v'+version+'\n\

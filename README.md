@@ -2,7 +2,7 @@
 
 # Droptime
 
-![hosted image](http://s6.postimg.org/xuuvi6ki9/droptime.png)
+![droptime](./repo/droptime.jpg)
 
 This game was not part of the submitted work for GGJ 2016 but if your keen to try it, go to;
 
@@ -27,11 +27,11 @@ Collect as many basketballs in your basket before the 1 minute timer runs out.
 ### For best experience;
 
 - Ensure no other local server is running (nginx or apache) on localhost port 3001.
-- In the droptime folder run npm install
-- Start the node.js server using the script server.js
+- run `npm install`
+- Start the server using: `node server.js`
 - visit http://localhost:3001/droptime/ in any mobile phone browser, or desktop browser emulating a mobile broswer.
 - go landscape and tap once to start in fullscreen.
 
 ### Alternative, no server method;
 
-Open /droptime/client/index.html in any desktop browser capable of emulating a mobile browser.
+Open /client/index.html in any desktop browser capable of emulating a mobile browser.
