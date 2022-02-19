@@ -2,7 +2,7 @@
 
 # Droptime
 
-![droptime](./repo/droptime.jpg)
+![droptime](.repo/droptime.jpg)
 
 This game was not part of the submitted work for GGJ 2016 but if your keen to try it, go to;
 
